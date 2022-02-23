@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bluee">#DDE0FF</color>
     <color name="bluee2">#8EA8F6</color>
+    <color name="purple">#F3F2FE</color>
+    <color name="red">#FF0000</color>
+    <color name="green"> #18B94E</color>
 </resources>

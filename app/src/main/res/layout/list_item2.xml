@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:strokeColor="@color/bluee2"
+    android:orientation="horizontal"
+    app:strokeWidth="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:padding="10dp">
+
+        <ImageView
+
+            android:id="@+id/item_imageN"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/item_titleN"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+
+            android:layout_marginStart="6dp"
+            android:layout_marginBottom="37dp"
+            android:layout_toEndOf="@id/item_imageN"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+        <TextView
+            android:id="@+id/statustext"
+            android:layout_width="136dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/btn_customize"
+            android:backgroundTint="@color/green"
+            android:shadowColor="@color/green"
+            android:text="  Mark as shipped"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

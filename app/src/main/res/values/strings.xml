@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">PetHub</string>
+
+    <string name="item1">Frontline Flea Treatment Spot On for Dogs</string>
+    <string name="price1">1400</string>
+    <string name="item2">Indorex Flea Spray Household Defense</string>
+    <string name="price2">1500</string>
+    <string name="item3">Capstar Flea Tablets For Cats and Dogs</string>
+    <string name="price3">650</string>
+    <string name="item4">YuMOVE Daily Bites for Senior Dogs</string>
+    <string name="price4">1100</string>
+    <string name="item5">Advantage Spot On Flea Treatmen</string>
+    <string name="price5">1400</string>
+
+    <string name="noti1">Frontline Flea Treatment Spot On for Dogs</string>
+
+    <string name="noti2">Indorex Flea Spray Household Defense</string>
 </resources>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PetHub">
         <activity
+            android:name=".Active_Listing"
+            android:exported="false" />
+        <activity
             android:name=".Add_Product"
             android:exported="false" />
         <activity

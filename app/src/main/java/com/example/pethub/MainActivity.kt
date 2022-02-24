@@ -15,5 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         // connect to firebase db
         //var database = FirebaseDatabase.getInstance().reference
+
+
     }
 }

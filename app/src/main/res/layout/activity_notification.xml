@@ -64,4 +64,67 @@
         android:scrollbars="vertical"
         app:layoutManager="LinearLayoutManager" />
 
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/navibar"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="8dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/hometbn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="665dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/navigatebar"
+        android:paddingRight="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:srcCompat="@drawable/homeicon"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/listbtn"
+        android:layout_width="51dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="690dp"
+        android:paddingLeft="5dp"
+        android:layout_marginEnd="315dp"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/navigatebar"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:srcCompat="@drawable/listicon"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/userbtn"
+        android:layout_width="51dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="46dp"
+        android:layout_marginTop="690dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/navigatebar"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:srcCompat="@drawable/profileicon"
+        tools:ignore="MissingConstraints" />
+
 </FrameLayout>

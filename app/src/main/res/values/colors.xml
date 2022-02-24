@@ -12,4 +12,6 @@
     <color name="purple">#F3F2FE</color>
     <color name="red">#FF0000</color>
     <color name="green"> #18B94E</color>
+    <color name="lightgrey">#BEBEBE</color>
+    <color name="darkgrey">#949494</color>
 </resources>

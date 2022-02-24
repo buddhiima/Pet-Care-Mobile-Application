@@ -110,7 +110,7 @@
         app:layout_constraintVertical_bias="0.425" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/joineddate_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
@@ -122,6 +122,72 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.448" />
+
+
+
+    <ImageView
+        android:id="@+id/nav_home"
+        android:layout_width="58dp"
+        android:layout_height="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963"
+        app:srcCompat="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/navdocsavailable_icon"
+        android:layout_width="22dp"
+        android:layout_height="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958"
+        app:srcCompat="@drawable/docsavailable" />
+
+    <ImageView
+        android:id="@+id/navlogout_icon"
+        android:layout_width="33dp"
+        android:layout_height="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948"
+        app:srcCompat="@drawable/logout" />
+
+    <TextView
+        android:id="@+id/navdocsavailable_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctors\nAvailable\nToday"
+        android:textAlignment="center"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/navlogout_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textAlignment="center"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.967" />
 
     <ImageView
         android:id="@+id/search_icon"
@@ -256,62 +322,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.773" />
-
-    <ImageView
-        android:id="@+id/nav_home"
-        android:layout_width="58dp"
-        android:layout_height="52dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.963"
-        app:srcCompat="@drawable/home" />
-
-    <ImageView
-        android:id="@+id/navdocsavailable_icon"
-        android:layout_width="22dp"
-        android:layout_height="36dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.21"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.958"
-        app:srcCompat="@drawable/docsavailable" />
-
-    <ImageView
-        android:id="@+id/navlogout_icon"
-        android:layout_width="33dp"
-        android:layout_height="26dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.838"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.948"
-        app:srcCompat="@drawable/logout" />
-
-    <TextView
-        android:id="@+id/navdocsavailable_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Doctors\nAvailable\nToday"
-        android:textAlignment="center"
-        android:textSize="8dp"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="697dp" />
-
-    <TextView
-        android:id="@+id/navlogout_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Logout"
-        android:textAlignment="center"
-        android:textSize="8dp"
-        tools:layout_editor_absoluteX="320dp"
-        tools:layout_editor_absoluteY="697dp" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

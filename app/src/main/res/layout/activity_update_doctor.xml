@@ -27,14 +27,17 @@
         android:fontFamily="@font/poppins_bold"
         android:inputType="textPersonName"
         android:text="Dr.(Ms) Lisa Simpson"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="18dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
 
     <Button
-        android:id="@+id/deletedoc_btn"
+        android:id="@+id/removedoc_btn"
         android:layout_width="wrap_content"
         android:layout_height="34dp"
-        android:text="Delete"
+        android:text="Remove"
         android:textSize="12dp"
         android:backgroundTint="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -170,7 +173,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/submitbtn"
+        android:id="@+id/updatedoc_btn"
         android:layout_width="168dp"
         android:layout_height="36dp"
         android:backgroundTint="@color/light_blue"

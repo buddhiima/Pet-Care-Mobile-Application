@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PetHub">
         <activity
+            android:name=".UpdateVet"
+            android:exported="false" />
+        <activity
+            android:name=".VetProfile"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorsAvailableToday"
+            android:exported="false" />
+        <activity
             android:name=".UpdateService"
             android:exported="false" />
         <activity

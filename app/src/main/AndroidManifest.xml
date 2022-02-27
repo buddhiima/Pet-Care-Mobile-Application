@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PetHub">
         <activity
+            android:name=".UpdateService"
+            android:exported="false" />
+        <activity
+            android:name=".ViewServices"
+            android:exported="false" />
+        <activity
+            android:name=".AddService"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".ViewDoctors"
+            android:exported="false" />
+        <activity
+            android:name=".add_doctor"
+            android:exported="false" />
+        <activity
             android:name=".Notification"
             android:exported="false" />
         <activity

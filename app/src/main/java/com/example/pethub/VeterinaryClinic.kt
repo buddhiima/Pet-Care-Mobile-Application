@@ -1,8 +1,6 @@
 package com.example.pethub
 
-import android.os.Bundle
-import android.widget.Button
-import com.google.firebase.database.DatabaseReference
+import android.widget.Spinner
 import com.google.firebase.database.FirebaseDatabase
 
 class VeterinaryClinic {
@@ -17,6 +15,15 @@ class VeterinaryClinic {
     var description = "Best Care Animal hospital is dedicated to offer you a quality veterinary service at a reasonable price. We are open all 7 days a week between 8.00am to 8.00pm."
     var clientEmail = "bestcare12@gmail.com"
     var password = "bestcare123"
+
+    // for multiselect spinner
+    var oneSpace = " "
+    var tikMark = 0X2714
+    var crossMark = 0X2715
+    var tikMarkAroundBox = 0X2611
+    var crossMarkAroundBox = 0X274E
+    var dash = "-"
+    private val mySpinner: Spinner? = null
 
     var database = FirebaseDatabase.getInstance().reference
 
@@ -43,7 +50,6 @@ class VeterinaryClinic {
         this.clientEmail = clientEmail
         this.password = password
     }
-
 
     fun addVeterinaryClinic(clientType:String,
                             clientName:String,

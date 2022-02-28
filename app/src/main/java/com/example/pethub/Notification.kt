@@ -30,7 +30,7 @@ class Notification : AppCompatActivity() {
             startActivity(Intent(this@Notification, MainActivity::class.java))
         }
         home.setOnClickListener{
-            startActivity(Intent(this@Notification, Add_Product::class.java))
+            startActivity(Intent(this@Notification, MainActivity::class.java))
         }
     }
 }

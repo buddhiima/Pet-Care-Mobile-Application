@@ -22,7 +22,7 @@ class Add_Product : AppCompatActivity() {
             startActivity(Intent(this@Add_Product, MainActivity::class.java))
         }
         home.setOnClickListener{
-            startActivity(Intent(this@Add_Product, Add_Product::class.java))
+            startActivity(Intent(this@Add_Product, MainActivity::class.java))
         }
     }
 }

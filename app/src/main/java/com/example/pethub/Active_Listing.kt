@@ -30,7 +30,7 @@ class Active_Listing : AppCompatActivity() {
             startActivity(Intent(this@Active_Listing, MainActivity::class.java))
         }
         home.setOnClickListener{
-            startActivity(Intent(this@Active_Listing, Add_Product::class.java))
+            startActivity(Intent(this@Active_Listing, MainActivity::class.java))
         }
     }
 }

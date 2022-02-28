@@ -7,13 +7,16 @@
         <entry key="..\:/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_add_doctor.xml" value="0.25052083333333336" />
         <entry key="..\:/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_add_product.xml" value="0.25052083333333336" />
         <entry key="..\:/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_add_service.xml" value="0.25052083333333336" />
+        <entry key="..\:/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_checkout.xml" value="0.2" />
         <entry key="..\:/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_doctors_available_today.xml" value="0.23645833333333333" />
         <entry key="..\:/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_login.xml" value="0.23645833333333333" />
         <entry key="..\:/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
-        <entry key="..\:/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_notification.xml" value="0.25052083333333336" />
+        <entry key="..\:/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_notification.xml" value="0.264" />
+        <entry key="..\:/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_select_payment_method.xml" value="0.25052083333333336" />
         <entry key="..\:/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_update_doctor.xml" value="0.25052083333333336" />
         <entry key="..\:/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_update_service.xml" value="0.25052083333333336" />
         <entry key="..\:/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_update_vet.xml" value="0.25052083333333336" />
+        <entry key="..\:/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_view_doctors.xml" value="0.25052083333333336" />
         <entry key="..\:/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_view_services.xml" value="0.12962962962962962" />
         <entry key="..\:/Users/ASUS/Desktop/PetHub/Pethub/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/drawable/addshape.xml" value="0.196" />

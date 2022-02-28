@@ -41,7 +41,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.732"
-        app:srcCompat="@drawable/LoginBtn" />
+        app:srcCompat="@drawable/group_2519" />
 
     <EditText
         android:id="@+id/psw_txtbox"

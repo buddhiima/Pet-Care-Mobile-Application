@@ -42,7 +42,7 @@ class Add_Product : AppCompatActivity() {
             startActivity(Intent(this@Add_Product, MainActivity::class.java))
         }
 
-   /*     var productname = findViewById<EditText>(R.id.productname)
+     var productname = findViewById<EditText>(R.id.productname)
         var productprice = findViewById<EditText>(R.id.productprice)
         var productqty = findViewById<EditText>(R.id.productqty)
         var productdescription = findViewById<EditText>(R.id.productdes)
@@ -77,6 +77,6 @@ class Add_Product : AppCompatActivity() {
 
 
         })
-*/
+
     }
 }

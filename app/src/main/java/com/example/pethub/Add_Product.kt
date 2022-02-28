@@ -10,6 +10,7 @@ class Add_Product : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_product)
 
+
         val list: ImageButton = findViewById(R.id.listbtn)
         val profile: ImageButton = findViewById(R.id.userbtn)
         val home: ImageButton = findViewById(R.id.hometbn)

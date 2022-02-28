@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         val list: ImageButton = findViewById(R.id.listbtn)
         val profile: ImageButton = findViewById(R.id.userbtn)
         val home: ImageButton = findViewById(R.id.hometbn)
-
+        val addproductbtn: ImageButton = findViewById(R.id.imageButton)
         setContentView(R.layout.activity_view_doctors)
 
         startActivity(Intent(this, ViewDoctors::class.java))
@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         home.setOnClickListener{
             startActivity(Intent(this@MainActivity, Add_Product::class.java))
         }
+
 
     }
 }

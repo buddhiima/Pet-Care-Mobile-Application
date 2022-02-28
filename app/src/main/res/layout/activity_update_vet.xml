@@ -26,10 +26,12 @@
         android:ems="10"
         android:fontFamily="@font/poppins_bold"
         android:inputType="textPersonName"
+        android:textColor="@color/grey"
+        android:textSize="17dp"
         android:text="BEST CARE VETERINARY CLINIC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.591"
+        app:layout_constraintHorizontal_bias="0.581"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.038" />

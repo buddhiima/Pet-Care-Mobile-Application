@@ -15,4 +15,5 @@
     <color name="lightgrey">#BEBEBE</color>
     <color name="darkgrey">#949494</color>
     <color name="light_blue">#8EA8F6</color>
+    <color name="grey">#CC424242</color>
 </resources>

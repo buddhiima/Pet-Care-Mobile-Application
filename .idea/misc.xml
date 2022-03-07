@@ -4,45 +4,37 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ASUS/Desktop/PetHub/Pethub/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/drawable/circle.xml" value="0.3675" />
-        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/drawable/img.xml" value="0.3675" />
-        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_add_doctor.xml" value="0.25" />
-        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_add_service.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_doctors_available_today.xml" value="0.33" />
-        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_login2.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_main.xml" value="0.27898550724637683" />
-        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_update_doctor.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_update_service.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_update_vet.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_vet_profile.xml" value="0.33" />
-        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_view_doctors.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_view_services.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/add_doctor.xml" value="0.365036231884058" />
-        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/vet_profile.xml" value="0.27898550724637683" />
-        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/view_doctors.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/drawable/addshape.xml" value="0.196" />
+        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_active_listing.xml" value="0.1" />
+        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Kevin Fernando/Desktop/Buddhima/Pet-Care-Mobile-Application/app/src/main/res/layout/vet_profile.xml" value="0.33" />
         <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/drawable/addshape.xml" value="0.1805" />
         <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/drawable/btn_customize.xml" value="0.1585" />
         <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/drawable/custom.xml" value="0.1805" />
-        <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/drawable/navigatebar.xml" value="0.1585" />
         <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/drawable/product_categories.xml" value="0.1805" />
         <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/drawable/textediter.xml" value="0.1585" />
-        <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/activity_active_listing.xml" value="0.136" />
-        <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/activity_add_doctor.xml" value="0.2" />
+        <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/activity_active_listing.xml" value="0.25" />
         <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/activity_add_product.xml" value="0.21666666666666667" />
-        <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/activity_add_service.xml" value="0.1" />
-        <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/activity_buyer_home.xml" value="0.1" />
-        <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/activity_buyer_profile.xml" value="0.1" />
-        <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/activity_cardpayment.xml" value="0.1" />
-        <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/activity_checkout.xml" value="0.1" />
-        <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/activity_doctors_available_today.xml" value="0.1" />
-        <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/activity_login.xml" value="0.1" />
-        <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/activity_notification.xml" value="0.2" />
-        <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/activity_ordeplaced.xml" value="0.1" />
-        <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/activity_paymentsuccess.xml" value="0.1" />
         <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/list_item.xml" value="0.25" />
         <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/lsit_item2.xml" value="0.25" />
-        <entry key="..\:/Users/Lahiru Gaveesh/OneDrive/Documents/Mobile Application Development PetCare/Waterfall Model.docx/app/src/main/res/layout/vet_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Vihan/Documents/Pet-Care-Mobile-Application/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.124" />
+        <entry key="..\:/Users/Vihan/Documents/Pet-Care-Mobile-Application/app/src/main/res/drawable/addshape.xml" value="0.2595" />
+        <entry key="..\:/Users/Vihan/Documents/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_active_listing.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Vihan/Documents/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_add_product.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Vihan/Documents/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_doctors_available_today.xml" value="0.1" />
+        <entry key="..\:/Users/Vihan/Documents/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Vihan/Documents/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_notification.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Vihan/Documents/Pet-Care-Mobile-Application/app/src/main/res/layout/activity_update_doctor.xml" value="0.1" />
+        <entry key="..\:/Users/Vihan/Documents/Pet-Care-Mobile-Application/app/src/main/res/layout/business_type.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Vihan/Documents/Pet-Care-Mobile-Application/app/src/main/res/layout/categories.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Vihan/Documents/Pet-Care-Mobile-Application/app/src/main/res/layout/list_item2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Vihan/Documents/Pet-Care-Mobile-Application/app/src/main/res/layout/seller_registration1.xml" value="0.264" />
+        <entry key="..\:/Users/Vihan/Documents/Pet-Care-Mobile-Application/app/src/main/res/layout/seller_registration2.xml" value="0.12380952380952381" />
+        <entry key="..\:/Users/Vihan/Documents/Pet-Care-Mobile-Application/app/src/main/res/layout/vet_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Vihan/Documents/Pet-Care-Mobile-Application/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.124" />
+        <entry key="..\:/Users/Vihan/Documents/Pet-Care-Mobile-Application/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.124" />
       </map>
     </option>
   </component>

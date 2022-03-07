@@ -19,6 +19,7 @@ class Notification : AppCompatActivity() {
         recyclerView.adapter = ItemAdapter2(this,myDataset2)
         recyclerView.setHasFixedSize(true)
 
+        val backbtn: ImageButton = findViewById(R.id.backbtn)
         val list: ImageButton = findViewById(R.id.listbtn)
         val profile: ImageButton = findViewById(R.id.userbtn)
         val home: ImageButton = findViewById(R.id.hometbn)
@@ -31,6 +32,10 @@ class Notification : AppCompatActivity() {
         }
         home.setOnClickListener{
             startActivity(Intent(this@Notification, MainActivity::class.java))
+        }
+        backbtn.setOnClickListener{
+            onBackPressed()
+
         }
     }
 }

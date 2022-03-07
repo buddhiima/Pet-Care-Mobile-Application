@@ -1,6 +1,7 @@
 package com.example.pethub
 
 import android.content.Intent
+import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
@@ -19,6 +20,7 @@ class Active_Listing : AppCompatActivity() {
         recyclerView.adapter = ItemAdapter(this,myDataset)
         recyclerView.setHasFixedSize(true)
 
+        val backbtn : ImageButton = findViewById(R.id.backbtn)
         val list: ImageButton = findViewById(R.id.listbtn)
         val profile: ImageButton = findViewById(R.id.userbtn)
         val home: ImageButton = findViewById(R.id.hometbn)
@@ -31,6 +33,10 @@ class Active_Listing : AppCompatActivity() {
         }
         home.setOnClickListener{
             startActivity(Intent(this@Active_Listing, MainActivity::class.java))
+        }
+        backbtn.setOnClickListener{
+            onBackPressed()
+
         }
     }
 }

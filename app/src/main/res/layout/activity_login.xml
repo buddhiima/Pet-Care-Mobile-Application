@@ -32,17 +32,6 @@
         app:layout_constraintVertical_bias="0.006"
         app:srcCompat="@drawable/_755_u1rvrelpietbvca0mtytote" />
 
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="213dp"
-        android:layout_height="27dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.732"
-        app:srcCompat="@drawable/group_2519" />
-
     <EditText
         android:id="@+id/psw_txtbox"
         android:layout_width="134dp"

@@ -27,7 +27,7 @@ class Add_Product : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_product)
 
-
+        val backbtn: ImageButton = findViewById(R.id.backbtn)
         val list: ImageButton = findViewById(R.id.listbtn)
         val profile: ImageButton = findViewById(R.id.userbtn)
         val home: ImageButton = findViewById(R.id.hometbn)
@@ -41,7 +41,10 @@ class Add_Product : AppCompatActivity() {
         home.setOnClickListener{
             startActivity(Intent(this@Add_Product, MainActivity::class.java))
         }
+        backbtn.setOnClickListener{
+            onBackPressed()
 
+        }
      var productname = findViewById<EditText>(R.id.productname)
         var productprice = findViewById<EditText>(R.id.productprice)
         var productqty = findViewById<EditText>(R.id.productqty)

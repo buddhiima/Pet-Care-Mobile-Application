@@ -25,10 +25,12 @@
         android:id="@+id/spinner_businesstype"
         android:layout_width="335dp"
         android:layout_height="32dp"
+        android:background="@drawable/rectangle_1507"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.328"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.295" />
+        app:layout_constraintVertical_bias="0.232" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

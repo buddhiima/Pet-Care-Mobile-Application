@@ -28,6 +28,7 @@
     <string name="pethub">Spinner</string>
 
     <string-array name="businesstype">
+        <item>Business Type</item>
         <item>Pet Shop</item>
         <item>Veterinary Clinic</item>
     </string-array>

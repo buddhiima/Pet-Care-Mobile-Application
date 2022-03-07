@@ -61,7 +61,6 @@
         android:text="Email"
         android:textColor="@color/darkgrey"
         android:textSize="10dp"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -73,16 +72,24 @@
         android:id="@+id/imageView11"
         android:layout_width="248dp"
         android:layout_height="21dp"
-        app:srcCompat="@drawable/group_2399"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="473dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.716"
+        app:srcCompat="@drawable/group_2399" />
 
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="118dp"
         android:layout_height="24dp"
-        app:srcCompat="@drawable/group_2416"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="545dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924"
+        app:srcCompat="@drawable/group_2416" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

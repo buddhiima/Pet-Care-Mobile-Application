@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
-import com.google.firebase.database.FirebaseDatabase
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,9 +14,8 @@ class MainActivity : AppCompatActivity() {
         val home: ImageButton = findViewById(R.id.hometbn)
        // val addproductbtn: ImageButton = findViewById(R.id.imageButton)
         val productbtn : ImageButton = findViewById(R.id.imageproduct)
-        //setContentView(R.layout.activity_view_doctors)
 
-        startActivity(Intent(this,SellerRegistration::class.java))
+        startActivity(Intent(this@MainActivity, ClientRegistration::class.java))
 
        list.setOnClickListener {
 

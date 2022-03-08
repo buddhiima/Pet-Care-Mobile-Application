@@ -13,7 +13,7 @@
             android:name=".SellerAccount"
             android:exported="false" />
         <activity
-            android:name=".SellerRegistration"
+            android:name=".ClientRegistration"
             android:exported="false" />
         <activity
             android:name=".Login"

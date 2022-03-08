@@ -1,20 +1,18 @@
 package com.example.pethub
 
+//import com.google.firebase.database.ktx.database
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.Toast
-import com.example.pethub.databinding.ActivityMainBinding
+import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-//import com.google.firebase.database.ktx.database
-import com.google.firebase.ktx.Firebase
 
 class Add_Product : AppCompatActivity() {
     private var database = FirebaseDatabase.getInstance("https://my-pethub-default-rtdb.firebaseio.com/")

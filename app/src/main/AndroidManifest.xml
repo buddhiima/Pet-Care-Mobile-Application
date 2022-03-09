@@ -46,12 +46,6 @@
             android:name=".ViewDoctors"
             android:exported="false" />
         <activity
-<<<<<<< Updated upstream
-            android:name=".AddDoctor"
-            android:exported="false" />
-        <activity
-=======
->>>>>>> Stashed changes
             android:name=".Notification"
             android:exported="false" />
         <activity

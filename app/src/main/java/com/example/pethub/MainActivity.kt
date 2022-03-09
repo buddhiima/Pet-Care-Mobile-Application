@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         val productbtn : ImageButton = findViewById(R.id.imageproduct)
 
 
-        startActivity(Intent(this@MainActivity, activity_ordeplaced::class.java))
+        startActivity(Intent(this@MainActivity, activity_cardpayment::class.java))
 
         
        list.setOnClickListener {

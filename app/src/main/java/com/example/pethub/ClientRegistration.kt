@@ -17,7 +17,7 @@ import kotlinx.android.synthetic.main.activity_client_registration.*
 class ClientRegistration : AppCompatActivity() {
 
     val databaseref = FirebaseDatabase.getInstance().reference.child("Clients")
-    lateinit var selectedImgUri: Uri
+    var selectedImgUri: Uri = Uri.parse("")
     var displayImgPath = ""
 
 
@@ -86,14 +86,14 @@ class ClientRegistration : AppCompatActivity() {
 
             // sending values to the db
             databaseref.child(email.toString()).setValue(Client(businessType, businessName, addressLine1, addressLine2, city, contact, description, email, password, displayImgPath)).addOnSuccessListener {
-                Toast.makeText(this, "Success!", Toast.LENGTH_SHORT)
+                Toast.makeText(this, "Success!", Toast.LENGTH_SHORT).show()
             } .addOnFailureListener{
-                Toast.makeText(this, "Error occured. Please try again.", Toast.LENGTH_SHORT)
+                Toast.makeText(this, "Error occured. Please try again.", Toast.LENGTH_SHORT).show()
             }
         }
 
         else {
-            Toast.makeText(this, "Fill all fields. Passwords must be same.", Toast.LENGTH_LONG)
+            Toast.makeText(this, "Fill all fields. Passwords must be same.", Toast.LENGTH_LONG).show()
         }
     }
 

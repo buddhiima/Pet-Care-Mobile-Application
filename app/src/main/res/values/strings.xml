@@ -33,7 +33,10 @@
         <item>Veterinary Clinic</item>
     </string-array>
 
+    <string name="pethub1">Spinner</string>
+
     <string-array name="daysOfWeek">
+        <item>Select Day</item>
         <item>Monday</item>
         <item>Tuesday</item>
         <item>Wednesday</item>

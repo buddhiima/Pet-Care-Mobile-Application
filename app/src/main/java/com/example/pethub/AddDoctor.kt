@@ -10,8 +10,15 @@ import android.widget.Toast
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage
 import kotlinx.android.synthetic.main.activity_add_doctor.*
+import kotlinx.android.synthetic.main.activity_add_doctor.backbtn
+import kotlinx.android.synthetic.main.activity_add_doctor.nav_home
+import kotlinx.android.synthetic.main.activity_add_doctor.navdocsavailable_icon
+import kotlinx.android.synthetic.main.activity_add_doctor.navlogout_icon
+import kotlinx.android.synthetic.main.activity_add_doctor.textbox_doccharges
+import kotlinx.android.synthetic.main.activity_add_doctor.textbox_docothernotes
 import kotlinx.android.synthetic.main.activity_add_doctor.view.*
 import kotlinx.android.synthetic.main.activity_client_registration.*
+import kotlinx.android.synthetic.main.activity_update_doctor.*
 
 class AddDoctor : AppCompatActivity() {
 
@@ -58,7 +65,7 @@ class AddDoctor : AppCompatActivity() {
     private fun addDoctor() {
         var docName = textbox_docname.text.toString()
         var specialty = textbox_docname.text.toString()
-        var availableDay = spinner_availableday.selectedItem.toString()
+        var availableDay = availableday.selectedItem.toString()
         var otherNotes = textbox_docothernotes.text.toString()
         var charges = textbox_doccharges.text.toString().toFloat()
 
@@ -84,6 +91,6 @@ class AddDoctor : AppCompatActivity() {
 
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
 
-        spinner_businesstype.adapter = adapter
+        availableday.adapter = adapter
     }
 }

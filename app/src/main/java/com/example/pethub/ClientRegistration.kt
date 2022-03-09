@@ -79,7 +79,7 @@ class ClientRegistration : AppCompatActivity() {
                 password==retypePassword) {
 
             // adding pro pic
-            val storageref = FirebaseStorage.getInstance().reference.child("clientDisplayImages/$email")
+            val storageref = FirebaseStorage.getInstance().reference.child("/clientDisplayImages/$email")
             storageref.putFile(selectedImgUri)
             displayImgPath = storageref.downloadUrl.toString()
             chooseimgbtn.text = "Image Selected"

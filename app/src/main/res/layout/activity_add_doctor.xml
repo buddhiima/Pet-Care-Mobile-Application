@@ -190,7 +190,7 @@
         app:srcCompat="@drawable/chevron_left" />
 
     <Spinner
-        android:id="@+id/spinner_availableday"
+        android:id="@+id/availableday"
         android:layout_width="335dp"
         android:layout_height="32dp"
         app:layout_constraintBottom_toBottomOf="parent"

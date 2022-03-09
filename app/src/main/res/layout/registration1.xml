@@ -292,13 +292,13 @@
         app:layout_constraintVertical_bias="0.956" />
 
     <Button
-        android:id="@+id/next"
+        android:id="@+id/signup"
         style="@style/ThemeOverlay.Material3.Button.ElevatedButton"
         android:layout_width="129dp"
         android:layout_height="45dp"
         android:backgroundTint="@color/bluee2"
         android:fontFamily="@font/sf"
-        android:text="Next"
+        android:text="Sign Up"
         android:textAlignment="center"
         android:textSize="12dp"
         android:textStyle="bold"
@@ -309,5 +309,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.954"
         tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/chooseimgbtn"
+        android:layout_width="134dp"
+        android:layout_height="24dp"
+        android:backgroundTint="@color/bluee"
+        android:padding="0dp"
+        android:text="Choose Image"
+        android:textColor="@color/darkgrey"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

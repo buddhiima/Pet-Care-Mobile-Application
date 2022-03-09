@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
        // val addproductbtn: ImageButton = findViewById(R.id.imageButton)
         val productbtn : ImageButton = findViewById(R.id.imageproduct)
 
-        startActivity(Intent(this@MainActivity, ClientRegistration::class.java))
+        startActivity(Intent(this@MainActivity, AddDoctor::class.java))
 
        list.setOnClickListener {
 

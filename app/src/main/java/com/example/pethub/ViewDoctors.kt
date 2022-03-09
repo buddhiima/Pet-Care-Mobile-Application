@@ -15,11 +15,6 @@ class ViewDoctors : AppCompatActivity() {
         newdoc_btn.setOnClickListener {
             val intent = Intent(this, AddDoctor::class.java)
             startActivity(intent)
-
-        }
-        backbtn.setOnClickListener{
-            onBackPressed()
-
         }
 
     }

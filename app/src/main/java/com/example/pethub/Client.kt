@@ -1,20 +1,19 @@
 package com.example.pethub
 
-import kotlinx.android.synthetic.main.activity_seller_registration.*
+import kotlinx.android.synthetic.main.activity_client_registration.*
 
-class Seller {
+class Client {
 
-    var businessType = ""
-    var businessName = ""
-    //var displayImage
-    var addressLine1 = ""
-    var addressLine2 = ""
-    var city = ""
-    var contact = ""
-    var description = ""
-    var email = ""
-    var password = ""
-    // var retypePassword
+    var businessType : String ?= null
+    var businessName : String ?= null
+    var addressLine1 : String ?= null
+    var addressLine2 : String ?= null
+    var city : String ?= null
+    var contact : String ?= null
+    var description : String ?= null
+    var email : String ?= null
+    var password : String ?= null
+    var displayImgPath : String ?= null
 
     constructor(businessType: String,
                 businessName: String,
@@ -24,7 +23,8 @@ class Seller {
                 contact: String,
                 description: String,
                 email: String,
-                password: String
+                password: String,
+                displayImgPath: String
     ) {
         this.businessType = businessType
         this.businessName = businessName
@@ -35,5 +35,6 @@ class Seller {
         this.description = description
         this.email = email
         this.password = password
+        this.displayImgPath = displayImgPath
     }
 }

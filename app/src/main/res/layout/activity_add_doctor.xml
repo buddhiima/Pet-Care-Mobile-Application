@@ -60,7 +60,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/rectangle_513"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textMultiLine"
         android:padding="7dp"
         android:text="Other Notes"
         android:textColor="@color/darkgrey"
@@ -190,7 +190,7 @@
         app:srcCompat="@drawable/chevron_left" />
 
     <Spinner
-        android:id="@+id/spinner_availabledays"
+        android:id="@+id/spinner_availableday"
         android:layout_width="335dp"
         android:layout_height="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -198,18 +198,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.295" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/bluee"
-        android:text="Upload Image"
-        android:textColor="@color/darkgrey"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.569" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,14 +16,11 @@ class MainActivity : AppCompatActivity() {
         val productbtn : ImageButton = findViewById(R.id.imageproduct)
 
 
-        startActivity(Intent(this@MainActivity, AddDoctor::class.java))
-
-        startActivity(Intent(this,ViewProducts::class.java))
+        startActivity(Intent(this@MainActivity, activity_cardpayment::class.java))
 
 
-        startActivity(Intent(this@MainActivity, AddDoctor::class.java))
 
-        startActivity(Intent(this,ViewProducts::class.java))
+
 
 
 

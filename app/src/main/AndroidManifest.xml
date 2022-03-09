@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PetHub">
-
+        <activity
+            android:name=".activity_cardpayment"
+            android:exported="false" />
         <activity
             android:name=".AddDoctor"
             android:exported="false" />
-
         <activity
             android:name=".ClientRegistration"
             android:exported="false" />
-
         <activity
             android:name=".Login"
             android:exported="false" />

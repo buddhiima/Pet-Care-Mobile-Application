@@ -71,9 +71,6 @@
             android:name=".ViewProducts"
             android:exported="false" />
         <activity
-            android:name=".BuyerHome"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -11,14 +11,7 @@
         android:theme="@style/Theme.PetHub">
 
         <activity
-<<<<<<< Updated upstream
             android:name=".AddDoctor"
-=======
-            android:name=".BuyerHom"
-            android:exported="false" />
-        <activity
-            android:name=".SellerAccount"
->>>>>>> Stashed changes
             android:exported="false" />
 
         <activity

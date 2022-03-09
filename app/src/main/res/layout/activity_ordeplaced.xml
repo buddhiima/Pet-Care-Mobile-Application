@@ -27,6 +27,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
+        android:id="@+id/catogorie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/group_2521"
@@ -35,10 +36,11 @@
         app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.972" />
+        app:layout_constraintVertical_bias="0.972"
+        tools:ignore="InvalidId" />
 
     <ImageButton
-
+        android:id="@+id/profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/group_2520"
@@ -47,9 +49,11 @@
         app:layout_constraintHorizontal_bias="0.888"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.972" />
+        app:layout_constraintVertical_bias="0.972"
+        tools:ignore="InvalidId" />
 
     <ImageButton
+        android:id="@+id/homebtn"
         android:layout_width="71dp"
         android:layout_height="71dp"
         android:background="@drawable/homeicon"
@@ -58,7 +62,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.972" />
+        app:layout_constraintVertical_bias="0.972"
+        tools:ignore="InvalidId" />
 
     <ImageView
         android:layout_width="350dp"

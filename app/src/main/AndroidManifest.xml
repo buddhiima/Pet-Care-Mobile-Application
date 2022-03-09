@@ -47,7 +47,7 @@
             android:name=".ViewDoctors"
             android:exported="false" />
         <activity
-            android:name=".add_doctor"
+            android:name=".AddDoctor"
             android:exported="false" />
         <activity
             android:name=".Notification"
@@ -58,6 +58,20 @@
         <activity
             android:name=".Add_Product"
             android:exported="false" />
+        <activity
+            android:name=".Registration1"
+            android:exported="false" />
+
+        <activity
+            android:name=".Category"
+            android:exported="false" />
+        <activity
+            android:name=".ViewProducts"
+            android:exported="false" />
+
+
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

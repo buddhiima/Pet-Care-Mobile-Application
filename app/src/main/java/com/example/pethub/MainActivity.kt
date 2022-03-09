@@ -15,7 +15,11 @@ class MainActivity : AppCompatActivity() {
        // val addproductbtn: ImageButton = findViewById(R.id.imageButton)
         val productbtn : ImageButton = findViewById(R.id.imageproduct)
 
+<<<<<<< Updated upstream
         startActivity(Intent(this@MainActivity, AddDoctor::class.java))
+=======
+        startActivity(Intent(this,ViewProducts::class.java))
+>>>>>>> Stashed changes
 
        list.setOnClickListener {
 

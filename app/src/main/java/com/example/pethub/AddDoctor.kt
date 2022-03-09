@@ -8,7 +8,6 @@ import android.widget.ArrayAdapter
 import android.widget.ImageButton
 import android.widget.Toast
 import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.storage.FirebaseStorage
 import kotlinx.android.synthetic.main.activity_add_doctor.*
 import kotlinx.android.synthetic.main.activity_add_doctor.backbtn
 import kotlinx.android.synthetic.main.activity_add_doctor.nav_home

@@ -11,7 +11,14 @@
         android:theme="@style/Theme.PetHub">
 
         <activity
+<<<<<<< Updated upstream
             android:name=".AddDoctor"
+=======
+            android:name=".BuyerHom"
+            android:exported="false" />
+        <activity
+            android:name=".SellerAccount"
+>>>>>>> Stashed changes
             android:exported="false" />
 
         <activity
@@ -57,17 +64,15 @@
         <activity
             android:name=".Registration1"
             android:exported="false" />
-
         <activity
             android:name=".Category"
             android:exported="false" />
         <activity
             android:name=".ViewProducts"
             android:exported="false" />
-
-
-
-
+        <activity
+            android:name=".BuyerHome"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

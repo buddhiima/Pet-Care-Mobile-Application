@@ -1,10 +1,11 @@
-import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import com.example.pethub.R
+package com.example.pethub
 
-class BuyerHome : AppCompatActivity() {
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class BuyerHom : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_buyer_home)
+        setContentView(R.layout.activity_buyer_hom)
     }
 }

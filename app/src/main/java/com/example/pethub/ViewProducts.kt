@@ -1,6 +1,5 @@
 package com.example.pethub
 
-import BuyerHome
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -36,7 +35,7 @@ class ViewProducts : AppCompatActivity() {
         }
 
         home.setOnClickListener{
-            startActivity(Intent(this,BuyerHome::class.java))
+            startActivity(Intent(this,BuyerHom::class.java))
         }
 
         profile.setOnClickListener{

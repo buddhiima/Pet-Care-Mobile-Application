@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PetHub">
         <activity
+            android:name=".activity_ordeplaced"
+            android:exported="false" />
+        <activity
             android:name=".activity_checkout"
             android:exported="false" />
         <activity

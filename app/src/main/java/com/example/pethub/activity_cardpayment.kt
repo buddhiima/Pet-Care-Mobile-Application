@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
-import androidx.room.Insert
 
 class activity_cardpayment : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,7 +13,12 @@ class activity_cardpayment : AppCompatActivity() {
         val proceedbtn:ImageButton=findViewById(R.id.proceedbtn)
 
         proceedbtn.setOnClickListener {
-            startActivity(Intent(this@activity_cardpayment, activity_paymentsuccess::class.java))
+            startActivity(Intent(this,activity_paymentsuccess::class.java))
+        }
+
+        val cancelbtn:ImageButton=findViewById(R.id.cancelbtn)
+        cancelbtn.setOnClickListener {
+            startActivity(Intent(this, BuyerHome::class.java))
         }
     }
 }

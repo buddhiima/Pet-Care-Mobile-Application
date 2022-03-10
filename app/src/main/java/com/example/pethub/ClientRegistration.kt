@@ -11,6 +11,7 @@ import android.util.Log
 import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.Toast
+import androidx.core.text.HtmlCompat
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage
 import kotlinx.android.synthetic.main.activity_client_registration.*
@@ -63,7 +64,7 @@ class ClientRegistration : AppCompatActivity() {
         var city = city_txtbox.text.toString()
         var contact = contact_txtbox.text.toString()
         var description = descbusiness_txtbox.text.toString()
-        var email = email_txtbox.text.toString()
+        var userName = email_txtbox.text.toString()
         var password = password_txtbox.text.toString()
         var retypePassword = retypepassword_txtbox.text.toString()
 
@@ -74,24 +75,24 @@ class ClientRegistration : AppCompatActivity() {
                 city!=null &&
                 contact!=null &&
                 description!=null &&
-                email!=null &&
+                userName!=null &&
                 password!=null &&
                 retypePassword!=null &&
                 password==retypePassword) {
 
             // adding pro pic
-            val storageref = FirebaseStorage.getInstance().reference.child("/clientDisplayImages/$email")
+            val storageref = FirebaseStorage.getInstance().reference.child("/clientDisplayImages/$userName")
             storageref.putFile(selectedImgUri)
             displayImgPath = storageref.downloadUrl.toString()
             chooseimgbtn.text = "Image Selected"
 
             // sending values to the db
-            databaseref.child(email.toString()).setValue(Client(businessType, businessName, addressLine1, addressLine2, city, contact, description, email, password, displayImgPath)).addOnSuccessListener {
-                Toast.makeText(this, "Success!", Toast.LENGTH_SHORT).show()
+            databaseref.child(userName.toString()).setValue(Client(businessType, businessName, addressLine1, addressLine2, city, contact, description, userName, password, displayImgPath)).addOnSuccessListener {
+                Toast.makeText(this, "Congratulations! You are successfully registered!", Toast.LENGTH_SHORT).show()
+                startActivity(Intent(this, Login::class.java))
             } .addOnFailureListener{
                 Toast.makeText(this, "Error occured. Please try again.", Toast.LENGTH_SHORT).show()
             }
-            Log.d("clientReg", email)
         }
 
         else {

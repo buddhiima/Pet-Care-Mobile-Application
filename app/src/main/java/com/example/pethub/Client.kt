@@ -1,7 +1,5 @@
 package com.example.pethub
 
-import kotlinx.android.synthetic.main.activity_client_registration.*
-
 class Client {
 
     var businessType : String ?= null
@@ -11,7 +9,7 @@ class Client {
     var city : String ?= null
     var contact : String ?= null
     var description : String ?= null
-    var email : String ?= null
+    var usernName : String ?= null
     var password : String ?= null
     var displayImgPath : String ?= null
 
@@ -33,7 +31,7 @@ class Client {
         this.city = city
         this.contact = contact
         this.description = description
-        this.email = email
+        this.usernName = email
         this.password = password
         this.displayImgPath = displayImgPath
     }

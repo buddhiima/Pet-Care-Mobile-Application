@@ -15,14 +15,12 @@ class MainActivity : AppCompatActivity() {
        // val addproductbtn: ImageButton = findViewById(R.id.imageButton)
         val productbtn : ImageButton = findViewById(R.id.imageproduct)
 
-        startActivity(Intent(this@MainActivity, ClientRegistration::class.java))
+        startActivity(Intent(this@MainActivity, activity_checkout::class.java))
 
-<<<<<<< Updated upstream
-=======
 
-        startActivity(Intent(this@MainActivity,Login::class.java))
+        //startActivity(Intent(this@MainActivity,Login::class.java))
 
-        startActivity(Intent(this@MainActivity,Login ::class.java))
+        //startActivity(Intent(this@MainActivity,Login ::class.java))
 
         //startActivity(Intent(this,ViewProducts::class.java))
 
@@ -34,8 +32,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        
->>>>>>> Stashed changes
+
        list.setOnClickListener {
 
           startActivity(Intent(this@MainActivity, Active_Listing::class.java))

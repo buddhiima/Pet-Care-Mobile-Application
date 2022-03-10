@@ -23,5 +23,10 @@ class activity_ordeplaced : AppCompatActivity() {
         homebtn.setOnClickListener {
             startActivity(Intent(this,BuyerHome::class.java))
         }
+
+        val closebtn: ImageButton = findViewById(R.id.closebtn)
+        closebtn.setOnClickListener {
+            startActivity(Intent(this, BuyerHome::class.java))
+        }
     }
 }

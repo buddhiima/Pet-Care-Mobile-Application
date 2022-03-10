@@ -83,13 +83,15 @@ class Registration1 : AppCompatActivity() {
 
             // sending values to the db
             databaseref.child(email.toString()).setValue(Buyer(Name, addressLine1, addressLine2, city, contact,  email, password, displayImgPath)).addOnSuccessListener {
-                Toast.makeText(this, "Success!", Toast.LENGTH_SHORT)
+                Toast.makeText(this, "Success!", Toast.LENGTH_SHORT).show()
+                startActivity(Intent(this,BuyerHome::class.java))
+
             } .addOnFailureListener{
-                Toast.makeText(this, "Error occured. Please try again.", Toast.LENGTH_SHORT)
+                Toast.makeText(this, "Error occured. Please try again.", Toast.LENGTH_SHORT).show()
             }
 
         }else {
-            Toast.makeText(this, "Fill all fields. Passwords must be same.", Toast.LENGTH_LONG)
+            Toast.makeText(this, "Fill all fields. Passwords must be same.", Toast.LENGTH_LONG).show()
         }
 
 

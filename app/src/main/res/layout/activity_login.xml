@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Login">
 
-    <TextView
+    <ImageButton
         android:id="@+id/welocmeback_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:paddingStart="10dp"
-        android:text="Password"
+        android:hint="Password"
         android:textColor="@color/darkgrey"
         android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -58,7 +58,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:paddingStart="10dp"
-        android:text="Email"
+        android:hint="Email"
         android:textColor="@color/darkgrey"
         android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -69,7 +69,7 @@
         app:layout_constraintVertical_bias="0.607" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/signup"
         android:layout_width="248dp"
         android:layout_height="21dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -80,8 +80,8 @@
         app:layout_constraintVertical_bias="0.791"
         app:srcCompat="@drawable/group_2399" />
 
-    <ImageView
-        android:id="@+id/imageView12"
+    <ImageButton
+        android:id="@+id/becomeseller"
         android:layout_width="118dp"
         android:layout_height="24dp"
         app:layout_constraintBottom_toBottomOf="parent"

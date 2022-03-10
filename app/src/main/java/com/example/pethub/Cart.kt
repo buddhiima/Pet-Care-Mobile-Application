@@ -25,7 +25,7 @@ class Cart : AppCompatActivity() {
         }
 
         home.setOnClickListener{
-            startActivity(Intent(this,BuyerHom::class.java))
+            startActivity(Intent(this,BuyerHome::class.java))
         }
 
         profile.setOnClickListener{

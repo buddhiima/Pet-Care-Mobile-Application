@@ -7,6 +7,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
+import android.util.Log
 import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.Toast
@@ -90,6 +91,7 @@ class ClientRegistration : AppCompatActivity() {
             } .addOnFailureListener{
                 Toast.makeText(this, "Error occured. Please try again.", Toast.LENGTH_SHORT).show()
             }
+            Log.d("clientReg", email)
         }
 
         else {

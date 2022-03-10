@@ -9,15 +9,46 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PetHub">
-
+        <activity
+<<<<<<< Updated upstream
+            android:name=".BuyerProf"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerHome"
+            android:exported="false" />
+        <activity
+            android:name=".activity_paymentsuccess"
+            android:exported="false" />
+        <activity
+            android:name=".activity_ordeplaced"
+            android:exported="false" />
+        <activity
+            android:name=".activity_checkout"
+            android:exported="false" />
+        <activity
+            android:name=".activity_cardpayment"
+            android:exported="false" />
+        <activity
+            android:name=".AddDoctor"
+=======
+            android:name=".ProductView"
+            android:exported="false" />
+        <activity
+            android:name=".Cart"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerProfile"
+            android:exported="false" />
         <activity
             android:name=".AddDoctor"
             android:exported="false" />
-
+        <activity
+            android:name=".BuyerHom"
+>>>>>>> Stashed changes
+            android:exported="false" />
         <activity
             android:name=".ClientRegistration"
             android:exported="false" />
-
         <activity
             android:name=".Login"
             android:exported="false" />

@@ -15,8 +15,9 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 
 class Add_Product : AppCompatActivity() {
-    private var database = FirebaseDatabase.getInstance("https://my-pethub-default-rtdb.firebaseio.com/")
-    private var databaseref = database.reference.child("Prodcuts")
+    private var database = FirebaseDatabase.getInstance("https://pethub-18493-default-rtdb.firebaseio.com/")
+    private var databaseref = database.reference.child("Products")
+    // val databaseref = FirebaseDatabase.getInstance("https://pethub-18493-default-rtdb.firebaseio.com/").reference.child("Products")
 
     companion object{
         var getproduct : String= String()
@@ -56,23 +57,21 @@ class Add_Product : AppCompatActivity() {
                 var productprice  = productprice.getText().toString()
                 var productqty = productqty.getText().toString()
                 var productdescription = productdescription.getText().toString()
-                getproduct=productname
+                //getproduct=productname
 
 
-                if(!!productname.isEmpty() && productprice.isEmpty() && productqty.isEmpty() && productdescription.isEmpty()){}
-                else{
-                    val run = databaseref.orderByChild("productname").equalTo(productname)
-                    val valuelistener = object : ValueEventListener {
-                        override fun onDataChange(snapshot: DataSnapshot) {
-                            Toast.makeText(this@Add_Product,"succssfully",Toast.LENGTH_SHORT).show()
-                        }
+                val insertdata=Products(productname,productprice,productqty,productdescription)
+                databaseref.setValue(insertdata).addOnSuccessListener {
+                    Toast.makeText(this@Add_Product,"Details Added",Toast.LENGTH_SHORT).show()
+                }.addOnFailureListener{
+                    Toast.makeText(this@Add_Product,"Details Failed",Toast.LENGTH_SHORT).show()
+                    it.printStackTrace();
 
-                        override fun onCancelled(error: DatabaseError) {
-                            Toast.makeText(this@Add_Product,"faild", Toast.LENGTH_SHORT).show()
-                        }
-
-                    }
                 }
+
+
+
+
 
             }
 

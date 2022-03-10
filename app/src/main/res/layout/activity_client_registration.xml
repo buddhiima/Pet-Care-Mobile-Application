@@ -308,7 +308,7 @@
         android:layout_height="19dp"
         android:background="@drawable/rectangle_1507"
         android:ems="10"
-        android:inputType="textEmailAddress"
+        android:inputType="textPersonName"
         android:paddingStart="10dp"
         android:text=""
         android:textColor="@color/darkgrey"

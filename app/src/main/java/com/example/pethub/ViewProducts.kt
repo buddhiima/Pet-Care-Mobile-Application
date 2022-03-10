@@ -29,13 +29,14 @@ class ViewProducts : AppCompatActivity() {
 
 
 
+
         cart.setOnClickListener {
 
-            startActivity(Intent(this,cart::class.java))
+            startActivity(Intent(this,Cart::class.java))
         }
 
         home.setOnClickListener{
-            startActivity(Intent(this,BuyerHom::class.java))
+            startActivity(Intent(this,BuyerHome::class.java))
         }
 
         profile.setOnClickListener{
@@ -43,7 +44,7 @@ class ViewProducts : AppCompatActivity() {
         }
 
         product1.setOnClickListener{
-            val intent = Intent(this,VetProfile ::class.java)
+            val intent = Intent(this,BuyerProfile ::class.java)
             startActivity(intent)
         }
 

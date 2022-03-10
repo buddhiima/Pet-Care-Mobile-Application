@@ -28,6 +28,12 @@
             android:name=".activity_cardpayment"
             android:exported="false" />
         <activity
+<<<<<<< Updated upstream
+=======
+            android:name=".AddDoctor"
+            android:exported="false" />
+        <activity
+>>>>>>> Stashed changes
             android:name=".ProductView"
             android:exported="false" />
         <activity
@@ -36,9 +42,13 @@
         <activity
             android:name=".BuyerProfile"
             android:exported="false" />
+<<<<<<< Updated upstream
         <activity
             android:name=".AddDoctor"
             android:exported="false" />
+=======
+
+>>>>>>> Stashed changes
         <activity
             android:name=".ClientRegistration"
             android:exported="false" />

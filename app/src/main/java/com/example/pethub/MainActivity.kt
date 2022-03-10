@@ -17,6 +17,25 @@ class MainActivity : AppCompatActivity() {
 
         startActivity(Intent(this@MainActivity, ClientRegistration::class.java))
 
+<<<<<<< Updated upstream
+=======
+
+        startActivity(Intent(this@MainActivity,Login::class.java))
+
+        startActivity(Intent(this@MainActivity,Login ::class.java))
+
+        //startActivity(Intent(this,ViewProducts::class.java))
+
+
+        //startActivity(Intent(this@MainActivity, AddDoctor::class.java))
+
+        //startActivity(Intent(this,ViewProducts::class.java))
+
+
+
+
+        
+>>>>>>> Stashed changes
        list.setOnClickListener {
 
           startActivity(Intent(this@MainActivity, Active_Listing::class.java))

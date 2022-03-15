@@ -6,18 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".Vet_clinic_list">
 
-
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/chevron_left"
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="10dp"
+        android:layout_height="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintHorizontal_bias="0.038"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025" />
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/chevron_left" />
 
     <TextView
         android:id="@+id/textView7"
@@ -33,6 +32,7 @@
         app:layout_constraintVertical_bias="0.025" />
 
     <ImageButton
+        android:id="@+id/List1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/group_2524"

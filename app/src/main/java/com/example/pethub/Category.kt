@@ -20,7 +20,7 @@ class Category : AppCompatActivity() {
 
         }
         vetclinic.setOnClickListener{
-            val intent = Intent(this,VetProfile ::class.java)
+            val intent = Intent(this,Vet_clinic_list ::class.java)
             startActivity(intent)
         }
 

@@ -11,7 +11,7 @@ class VetClinicHome : AppCompatActivity() {
         setContentView(R.layout.activity_vet_clinic_home)
 
         doctors_bg.setOnClickListener{
-            val intent = Intent(this,VetProfile ::class.java)
+            val intent = Intent(this,VetClinicViewDoc ::class.java)
             startActivity(intent)
         }
 

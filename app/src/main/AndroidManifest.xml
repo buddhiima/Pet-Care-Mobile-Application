@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PetHub">
         <activity
+            android:name=".VetClinicDocProf"
+            android:exported="false" />
+        <activity
+            android:name=".VetClinicViewDoc"
+            android:exported="false" />
+        <activity
             android:name=".VetClinicHome"
             android:exported="false" />
         <activity
@@ -90,6 +96,11 @@
         <activity
             android:name=".ViewProducts"
             android:exported="false" />
+
+        <activity
+            android:name=".Vet_clinic_list"
+            android:exported="true"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

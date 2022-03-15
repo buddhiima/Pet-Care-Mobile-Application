@@ -15,8 +15,8 @@ class BuyerHome : AppCompatActivity() {
             startActivity(Intent(this,BuyerProf::class.java))
         }
 
-        val caegorie:ImageButton=findViewById(R.id.catogorie)
-        caegorie.setOnClickListener {
+        val catogorie:ImageButton=findViewById(R.id.catogorie)
+        catogorie.setOnClickListener {
             startActivity(Intent(this,Category::class.java))
         }
         val homebtn:ImageButton=findViewById(R.id.homebtn)

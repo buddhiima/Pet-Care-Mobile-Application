@@ -17,12 +17,11 @@ class MainActivity : AppCompatActivity() {
 
         startActivity(Intent(this@MainActivity, activity_checkout::class.java))
 
-<<<<<<< Updated upstream
 
         //startActivity(Intent(this@MainActivity,Login::class.java))
-=======
+
         startActivity(Intent(this@MainActivity,Login::class.java))
->>>>>>> Stashed changes
+
 
         //startActivity(Intent(this@MainActivity,Login ::class.java))
 
@@ -34,12 +33,6 @@ class MainActivity : AppCompatActivity() {
         //startActivity(Intent(this,ViewProducts::class.java))
 
 
-<<<<<<< Updated upstream
-
-
-
-=======
->>>>>>> Stashed changes
        list.setOnClickListener {
 
           startActivity(Intent(this@MainActivity, Active_Listing::class.java))

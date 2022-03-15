@@ -19,5 +19,10 @@ class VetClinicHome : AppCompatActivity() {
             val intent = Intent(this,VetProfile ::class.java)
             startActivity(intent)
         }
+
+        navdocsavailable_icon.setOnClickListener{
+            val intent = Intent(this,DoctorsAvailableToday ::class.java)
+            startActivity(intent)
+        }
     }
 }

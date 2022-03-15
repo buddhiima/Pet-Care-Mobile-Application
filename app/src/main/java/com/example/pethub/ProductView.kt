@@ -35,6 +35,9 @@ class ProductView : AppCompatActivity() {
         Addcart.setOnClickListener{
             Toast.makeText(this, "Successfully Added", Toast.LENGTH_LONG).show()
         }
+        buynow.setOnClickListener{
+            startActivity(Intent(this,activity_checkout::class.java))
+        }
 
 
 

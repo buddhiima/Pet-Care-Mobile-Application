@@ -34,10 +34,7 @@ class MainActivity : AppCompatActivity() {
         //startActivity(Intent(this,ViewProducts::class.java))
 
 
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
        list.setOnClickListener {
 
           startActivity(Intent(this@MainActivity, Active_Listing::class.java))
